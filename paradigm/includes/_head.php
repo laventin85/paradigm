@@ -150,6 +150,10 @@ elseif ((($_zp_gallery_page == 'index.php')||($_zp_gallery_page == 'news.php')||
 
 <link rel="shortcut icon" href="<?php echo (PROTOCOL."://".$_SERVER['HTTP_HOST']); echo '/favicon.ico'; ?>">
 
+<!-- Apple Touch Icon -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $_zp_themeroot; ?>/img/apple-touch-icon.light.png">
+
 <!-- js -->
 
 <script src="<?php echo $_zp_themeroot; ?>/js/bootstrap.js" type="text/javascript" defer></script>
