@@ -5,7 +5,7 @@
  * @package plugins
  */
 ?>
-<form id="mailform" action="<?php echo html_encode(getRequestURI()); ?>" method="post" accept-charset="UTF-8"<?php echo contactForm::getFormAutocompleteAttr(); ?> class="form-horizontal" role="form">
+<form id="mailform" action="<?php echo html_encode(getRequestURI()); ?>" method="post" accept-charset="UTF-8" <?php echo contactForm::getFormAutocompleteAttr(); ?> class="form-horizontal" role="form">
 <input type="hidden" id="sendmail" name="sendmail" value="sendmail" />
 
 <?php if (contactForm::isVisibleField('contactform_title')) { ?>
